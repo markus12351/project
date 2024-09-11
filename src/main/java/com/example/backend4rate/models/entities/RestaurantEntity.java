@@ -27,6 +27,10 @@ public class RestaurantEntity {
     @Column(name = "work_time", nullable = false)
     private String workTime;
 
+    @Basic
+    @Column(name = "is_favorite", nullable = false)
+    private boolean isFavorite = false;
+    
     @OneToOne(mappedBy = "restaurant")
     private ManagerEntity manager;
 
