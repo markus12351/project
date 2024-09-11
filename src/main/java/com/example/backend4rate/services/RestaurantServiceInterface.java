@@ -7,5 +7,6 @@ public interface RestaurantServiceInterface {
     List<RestaurantEntity> getAllRestaurants();
     RestaurantEntity addRestaurant(RestaurantEntity restaurant);
     RestaurantEntity getRestaurantById(Integer id);
+    RestaurantEntity updateRestaurant(Integer id, RestaurantEntity restaurant);
     void deleteRestaurant(Integer id);
 }
