@@ -12,5 +12,5 @@ public class Restaurant {
     private List<String> phoneNumbers;  
     private List<String> images;        
     private List<String> categories;   
-    private double averageUserRating;   
+    private double averageGrade;   
 }
