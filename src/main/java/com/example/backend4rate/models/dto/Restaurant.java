@@ -1,6 +1,7 @@
 package com.example.backend4rate.models.dto;
 
 import lombok.Data;
+import java.util.List;
 
 @Data
 public class Restaurant {
@@ -8,5 +9,8 @@ public class Restaurant {
     private String name;
     private String description;
     private String workTime;
-    // Dodaj ostala polja prema potrebi
+    private List<String> phoneNumbers;  
+    private List<String> images;        
+    private List<String> categories;   
+    private double averageUserRating;   
 }
